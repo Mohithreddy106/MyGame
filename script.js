@@ -1,5 +1,6 @@
 function onClick() {
   // Game Time
+  
   let name = prompt("Please Enter your name: ");
   let gameNum = name.length;
   alert(`Hello ${name.toUpperCase()} ! Welcome to the Number guessing game :)`);
@@ -12,4 +13,5 @@ function onClick() {
   }
 
   document.write(`Congratulations ${name.toUpperCase()}, your Guess is Correct! Great Job`);
+  
 }
